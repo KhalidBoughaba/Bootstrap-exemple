@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form role = "form">
+
+   <div class = "form-group">
+      <label for = "name">Name</label>
+      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+   </div>
+   
+   <div class = "form-group">
+      <label for = "inputfile">File input</label>
+      <input type = "file" id = "inputfile">
+      <p class = "help-block">Example block-level help text here.</p>
+   </div>
+   
+   <div class = "checkbox">
+      <label><input type = "checkbox"> Check me out</label>
+   </div>
+   
+   <button type = "submit" class = "btn btn-default">Submit</button>
+</form>
+<br>
+<hr>
+<br><br><br><br>
+<form class = "form-horizontal" role = "form">
+   
+    <div class = "form-group">
+       <label for = "firstname" class = "col-sm-2 control-label">First Name</label>
+         
+       <div class = "col-sm-10">
+          <input type = "text" class = "form-control" id = "firstname" placeholder = "Enter First Name">
+       </div>
+    </div>
+    
+    <div class = "form-group">
+       <label for = "lastname" class = "col-sm-2 control-label">Last Name</label>
+         
+       <div class = "col-sm-10">
+          <input type = "text" class = "form-control" id = "lastname" placeholder = "Enter Last Name">
+       </div>
+    </div>
+    
+    <div class = "form-group">
+       <div class = "col-sm-offset-2 col-sm-10">
+          <div class = "checkbox">
+             <label><input type = "checkbox"> Remember me</label>
+          </div>
+       </div>
+    </div>
+    
+    <div class = "form-group">
+       <div class = "col-sm-offset-2 col-sm-10">
+          <button type = "submit" class = "btn btn-default">Sign in</button>
+       </div>
+    </div>
+     
+ </form>
+ <br>
+<hr>
+<br><br><br><br>
+<label for = "name">Example of Default Checkbox and radio button </label>
+
+<div class = "checkbox">
+   <label>
+      <input type = "checkbox" value = "">Option 1
+   </label>
+</div>
+
+<div class = "checkbox">
+   <label>
+      <input type = "checkbox" value = "">Option 2
+   </label>
+</div>
+
+<div class = "radio">
+   <label>
+      <input type = "radio" name = "optionsRadios" id = "optionsRadios1" value = "option1" checked> Option 1
+   </label>
+</div>
+
+<div class = "radio">
+   <label>
+      <input type = "radio" name = "optionsRadios" id = "optionsRadios2" value = "option2">
+      Option 2 - selecting it will deselect option 1
+   </label>
+</div>
+
+<label for = "name">Example of Inline Checkbox and radio button </label>
+
+<div>
+   <label class = "checkbox-inline">
+      <input type = "checkbox" id = "inlineCheckbox1" value = "option1"> Option 1
+   </label>
+   
+   <label class = "checkbox-inline">
+      <input type = "checkbox" id = "inlineCheckbox2" value = "option2"> Option 2
+   </label>
+   
+   <label class = "checkbox-inline">
+      <input type = "checkbox" id = "inlineCheckbox3" value = "option3"> Option 3
+   </label>
+   
+   <label class = "checkbox-inline">
+      <input type = "radio" name = "optionsRadiosinline" id = "optionsRadios3" value = "option1" checked> Option 1
+   </label>
+   
+   <label class = "checkbox-inline">
+      <input type = "radio" name = "optionsRadiosinline" id = "optionsRadios4" value = "option2"> Option 2
+   </label>
+   
+</div>
+ <br>
+<hr>
+<br><br><br><br>
+ <form role = "form">
+         <div class = "form-group">
+            <input class = "form-control input-lg" type = "text" placeholder =".input-lg">
+         </div>
+
+         <div class = "form-group">
+            <input class = "form-control" type = "text" placeholder = "Default input">
+         </div>
+
+         <div class = "form-group">
+            <input class = "form-control input-sm" type = "text" placeholder = ".input-sm">
+         </div>
+         
+         <div class = "form-group"></div>
+         
+         <div class = "form-group">
+            <select class = "form-control input-lg">
+               <option value = "">.input-lg</option>
+            </select>
+         </div>
+         
+         <div class = "form-group">
+            <select class = "form-control">
+               <option value = "">Default select</option>
+            </select>
+         </div>
+         
+         <div class = "form-group">
+            <select class = "form-control input-sm">
+               <option value = "">.input-sm</option>
+            </select>
+         </div>
+
+         <div class = "row">
+            <div class = "col-lg-2">
+               <input type = "text" class = "form-control" placeholder = ".col-lg-2">
+            </div>
+            
+            <div class = "col-lg-3">
+               <input type = "text" class = "form-control" placeholder = ".col-lg-3">
+            </div>
+            
+            <div class = "col-lg-4">
+               <input type = "text" class = "form-control" placeholder = ".col-lg-4">
+            </div>
+            
+         </div>
+      </form>
+ </body>
